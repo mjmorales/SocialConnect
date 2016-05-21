@@ -3,9 +3,9 @@
   $server_root = dirname($_SERVER['PHP_SELF']);
    
   $dbhost  = 'localhost';    // Unlikely to require changing
-  $dbname  = 'mmoral41';   // Modify these...
-  $dbuser  = 'mmoral41';   // ...variables according
-  $dbpass  = 'nekuJBGybxKok';   // ...to your installation
+  $dbname  = '';   // Modify these...
+  $dbuser  = '';   // ...variables according
+  $dbpass  = '';   // ...to your installation
   $appname = "Social Connect"; // ...and preference
 
   $connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
